@@ -226,6 +226,8 @@ const MainScreen = (props: any) => {
         styles.vwWorkougth,
         {
           backgroundColor: item.backgroundChange ? colors.blue : colors.white,
+          marginRight:index== workOught.length -1 ?  getWidth(30):getWidth(4)
+
         },
       ]}>
       {item.images}
